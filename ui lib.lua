@@ -300,7 +300,7 @@ function library.new(library_title, cfg_location)
 			is_first_tab = false
 			selected_tab = TabButton
 
-			TabImage.ImageColor3 = Color3.fromRGB(84, 101, 255)
+			TabImage.ImageColor3 = Color3.fromRGB(255, 255, 255)
 			Tab.Visible = true
 		end
 
@@ -435,7 +435,7 @@ function library.new(library_title, cfg_location)
 				is_first_section = false
 				selected_section = SectionButton
 
-				SectionButton.TextColor3 = Color3.fromRGB(84, 101, 255) 
+				SectionButton.TextColor3 = Color3.fromRGB(255, 255, 255) 
 
 				SectionDecoration.Visible = true
 				SectionFrame.Visible = true
@@ -1264,7 +1264,7 @@ function library.new(library_title, cfg_location)
 
 							local Decoration = library:create("Frame", {
 								Name = "Decoration",
-								BackgroundColor3 = Color3.fromRGB(84, 101, 255),
+								BackgroundColor3 = Color3.fromRGB(255, 255, 255),
 								BorderSizePixel = 0,
 								Size = UDim2.new(0, 1, 1, 0),
 								Visible = false,
@@ -1585,7 +1585,7 @@ function library.new(library_title, cfg_location)
 							library:tween(Button, TweenInfo.new(0.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {TextColor3 = Color3.fromRGB(150, 150, 150)})
 						end)
 						Button.MouseButton1Down:Connect(function()
-							Button.BorderColor3 = Color3.fromRGB(84, 101, 255)
+							Button.BorderColor3 = Color3.fromRGB(255, 255, 255)
 							library:tween(Button, TweenInfo.new(0.6, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {BorderColor3 = Color3.fromRGB(0, 0, 0)})
 							do_callback()
 						end)
@@ -1702,7 +1702,7 @@ function library.new(library_title, cfg_location)
 							ScrollBarThickness = 2,
 							TopImage = "rbxasset://textures/ui/Scroll/scroll-middle.png",
 							AnchorPoint = Vector2.new(0.5, 0),
-							ScrollBarImageColor3 = Color3.fromRGB(84, 101, 255),
+							ScrollBarImageColor3 = Color3.fromRGB(255, 255, 255),
 						}, Scroll)
 						ScrollFrame.MouseEnter:Connect(function()
 							library:tween(ScrollFrame, TweenInfo.new(0.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {BorderColor3 = Color3.fromRGB(50, 50, 50)})
