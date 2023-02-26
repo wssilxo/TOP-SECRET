@@ -834,7 +834,7 @@ function library.new(library_title, cfg_location)
 							local ColorButton = library:create("TextButton", {
 								Name = "ColorButton",
 								AnchorPoint = Vector2.new(1, 0.5),
-								BackgroundColor3 = Color3.fromRGB(255, 28, 28),
+								BackgroundColor3 = Color3.fromRGB(255, 255, 255),
 								BorderColor3 = Color3.fromRGB(0, 0, 0),
 								Position = UDim2.new(0, 265, 0.5, 0),
 								Size = UDim2.new(0, 35, 0, 11),
